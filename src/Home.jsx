@@ -5,7 +5,9 @@ export default function Home() {
     <div className='home'>
      
         {/* button to trigger the modal */}
-        <button className='btn btn-primary' data-toggle='modal' data-target='#myModal'>Launch Modal</button>
+        <button className='btn btn-success' data-toggle='modal' data-target='#myModal'>
+            Launch Modal
+        </button>
 
 {/* modal box with a fade, pop-up message when one visit the page */}
     <div className='modal fade' id='myModal'>
@@ -28,6 +30,11 @@ export default function Home() {
                         </div>
             </div>
         </div>
+    </div>
+
+    <div className='text'>
+        <p className='text-light'>The modern way of construction</p>
+
     </div>
     </div>
   )

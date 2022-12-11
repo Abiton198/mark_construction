@@ -16,7 +16,7 @@ export default function Navbar() {
             <div className='collapse navbar-collapse' id='navbarCollapse'>
                 <ul className='navbar-nav ml-auto'>
                     <li className='navbar-item'>
-                        <Link to='/' className='nav-link'>Homepage</Link>
+                        <Link to='/' className='nav-link'>Home</Link>
                     </li>
 
                     <li className='navbar-item'>
