@@ -22,10 +22,14 @@
   margin: 0;
 }
 
-.image{
-  width: 100%;
-  height: 100vh;
+.row{
+  height:50vh;
 }
+/* .image{
+  width: 560px;
+  height: 100vh;
+  border-radius: 50%;
+} */
 
 .social ul>li{
   font-size: 30px;

@@ -7,7 +7,7 @@ export default function Contact() {
 <>
         
         <div className='row'>
-            <div className='col-sm-6 m-0 bg-light text-justify'>
+            <div className='col-sm-6 bg-light text-justify'>
                 <p className='contact-message'> 
                     If you would like to explore the idea
                     of working with Mark Du Peez Construction SA, feel free to get in touch.
@@ -42,9 +42,9 @@ export default function Contact() {
                     </div>
                         </div>
         
-            <div className='col-sm-6'>
-                <img src={home} alt='' className='image'/>
-                    </div>
+             {/* <div className='col-sm-6 bg-success'>
+                 <img src={home} alt='' className='image'/> 
+                    </div>  */}
         </div>
 
 </>
