@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
     <div>
-        <nav className='navbar navbar-light bg-light navbar-expand-lg'>
+        <nav className='navbar navbar-dark bg-dark navbar-expand-lg fixed-top'>
             <a href='#' className='navbar-brand'>Mark Du Peez Contractors</a>
 
     {/* button with humburger */}
@@ -15,23 +16,23 @@ export default function Navbar() {
             <div className='collapse navbar-collapse' id='navbarCollapse'>
                 <ul className='navbar-nav ml-auto'>
                     <li className='navbar-item'>
-                        <a href='#' className='nav-link'>Homepage</a>
+                        <Link to='/' className='nav-link'>Homepage</Link>
                     </li>
 
                     <li className='navbar-item'>
-                        <a href='#' className='nav-link'>About</a>
+                        <Link to='/About' className='nav-link'>About</Link>
                     </li>
 
                     <li className='navbar-item'>
-                        <a href='#' className='nav-link'>Projects</a>
+                        <Link to='/Projects' className='nav-link'>Projects</Link>
                     </li>
 
                     <li className='navbar-item'>
-                        <a href='#' className='nav-link'>Current</a>
+                        <Link to='/Current' className='nav-link'>Current</Link>
                     </li>
 
                     <li className='navbar-item'>
-                        <a href='#' className='nav-link'>Contact</a>
+                        <Link to='/Contact' className='nav-link'>Contact</Link>
                     </li>
                 </ul>
             </div>
