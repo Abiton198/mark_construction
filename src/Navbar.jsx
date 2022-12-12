@@ -1,11 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from './img/logo.png'
 
 export default function Navbar() {
   return (
     <div>
-        <nav className='navbar navbar-dark bg-dark navbar-expand-lg fixed-top'>
-            <a href='#' className='navbar-brand'>Mark du Preez Contractors</a>
+        <nav className='navbar navbar-dark bg-success navbar-expand-lg fixed-top'>
+            <a href='#' className='navbar-brand'>
+                <img src={logo} alt='' width='50px' height='40px' className='mr-3'/> 
+                Crimson Manufacturing
+            </a>
 
     {/* button with humburger */}
             <button className='navbar-toggler' data-toggle='collapse' data-target='#navbarCollapse'>

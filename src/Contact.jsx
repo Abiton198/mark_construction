@@ -10,14 +10,15 @@ export default function Contact() {
             <div className='col-sm-6 bg-light text-justify'>
                 <p className='contact-message'> 
                     If you would like to explore the idea
-                    of working with Mark du Preez Contractors SA, feel free to get in touch on
+                    of working with Crimson Manufacturing SA, feel free to get in touch on
                      our various platforms today.
                         </p>
 
-                    <h6 className='font-weight-bold'>We are located at number
-                        <br/>35 Cape Road, Gherbeha, SA 
-                            <br/>Tel:086 000 0000 
-                                <br/>www.markdepreez.co.za
+                    <h6 className='font-weight-bold'>Find Us:
+                        <br/><i className="fa-sharp fa-solid fa-location-dot m-2 "></i>Gedults River, St Albans, Gqeberha, SA  
+                            <br/> <i className="fa-solid fa-phone m-2"></i>076 872 1584
+                            <br/> <i className="fa-regular fa-envelope m-2"></i> 01dupreez@gmail.com
+                                <br/><i class="fa-solid fa-magnifying-glass m-2"></i>www.crimsonmanufacturing.co.za
                                     </h6>
 
                     <div className='social'>
@@ -48,11 +49,12 @@ export default function Contact() {
                     </div>
             </div>
         
-             <div className='col-sm-6 bg-success'>
-                 <h2>Mark du Preez Contractors 
-                    <br/>
-                     <hr/>Getting the job done, efficient, reliable and cost effective
-                        </h2> 
+             <div className='col-sm-6 bg-dark text-light'>
+                 <h2>Crimson Manufacturing 
+                    <hr className='bg-light'/>
+                    <br/> Gets the job done!
+                         <br/>efficient, reliable and innovative!
+                            </h2> 
               </div> 
         </div>
 

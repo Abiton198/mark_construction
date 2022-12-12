@@ -1,6 +1,4 @@
 
-
-
 .app{
   margin-top: 55px;
 
@@ -12,9 +10,8 @@
   text-align: center;
 }
 
-
 .home{
-  background-image: url(/src/img/home.jpg);
+  background-image: url(/src/img/home1.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,9 +21,7 @@
 
 .row{
   height:50vh;
-  
 }
-
 
 .social ul>li{
   font-size: 30px;
