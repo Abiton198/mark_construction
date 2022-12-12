@@ -24,12 +24,9 @@
 
 .row{
   height:50vh;
+  margin-left: 20px;
 }
-/* .image{
-  width: 560px;
-  height: 100vh;
-  border-radius: 50%;
-} */
+
 
 .social ul>li{
   font-size: 30px;
@@ -38,8 +35,20 @@ list-style: none;
 }
 
 .contact-message, h6{
+  margin-top: 100px;
   padding: 10px;
 }
 
+.col-sm-6 >h2{
+  text-align: center;
+ margin-top: 100px;
+ height: 100vh;
+ font-weight: 900;
+}
+/* 
+.col-sm-6 >h2 span {
+  font-style: italic;
+ font-weight: 600;
 
+} */
 

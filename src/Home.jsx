@@ -16,13 +16,13 @@ export default function Home() {
             <div className='modal-content'>
 
                 <div className='modal-header'>
-                    <h5 className='modal-title'>Why consider Mark Du Peez Contractors?</h5>
+                    <h5 className='modal-title'>Why consider Mark Du Preez Contractors?</h5>
                         <button type='button' className='close' data-dismiss='modal'></button>
                             </div>
                                  
                <div className='modal-body'>
                     <p>This website you are viewing was build in support of Mandara Foundation which looks after orphans welfare,
-                        supporting Mark Du Peez Contractors in business is a way to put a hand in the Foundation.  </p>
+                        supporting Mark Du Preez Contractors in business is a way to put a hand in the Foundation.  </p>
                             </div>
 
                 <div className='modal-footer'>

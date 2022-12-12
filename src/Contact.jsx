@@ -10,7 +10,7 @@ export default function Contact() {
             <div className='col-sm-6 bg-light text-justify'>
                 <p className='contact-message'> 
                     If you would like to explore the idea
-                    of working with Mark Du Peez Construction SA, feel free to get in touch.
+                    of working with Mark du Preez Construction SA, feel free to get in touch on our various platforms today.
                     </p>
                     <h6 className='font-weight-bold'>We are located at number <br/>35 Cape Road, Qherbega, SA</h6>
 
@@ -18,22 +18,22 @@ export default function Contact() {
                     <ul className="row">
                                                                 
                                                                 <li className="col">
-                                                                    <a className="whatsapp" href="https://wa.me/0027761272025">
+                                                                    <a className="whatsapp" href="#">
                                                                         <i className="fab fa-whatsapp"></i>
                                                                     </a></li>
                                                                     
                                                                 <li className="col">
-                                                                    <a className="twitter" href="https://twitter.com/abitondev?ref_src=twsrc%5Etfw">
+                                                                    <a className="twitter" href="#">
                                                                         <i className="fab fa-twitter"></i>
                                                                     </a></li>
                                                                     
                                                                 <li className="col">
-                                                                    <a className="github" href="https://github.com/Abiton198">
+                                                                    <a className="github" href="#">
                                                                         <i className="fab fa-github"></i>  
                                                                     </a></li>
                                     
                                                                     <li className='col'>
-                                                                    <a className='linked-in' href='https://www.linkedin.com/in/abiton-padera-232a6a9a/'>
+                                                                    <a className='linked-in' href='#'>
                                                                          <i className="fab fa-linkedin"></i> 
                                                                     </a></li>
                                     
@@ -42,9 +42,13 @@ export default function Contact() {
                     </div>
                         </div>
         
-             {/* <div className='col-sm-6 bg-success'>
-                 <img src={home} alt='' className='image'/> 
-                    </div>  */}
+             <div className='col-sm-6 bg-success'>
+                 <h2>Mark du Preez Contractors <br/>
+                  <hr/>
+                 Getting the job done, efficient, reliable and cost effective
+                </h2> 
+                 
+             </div> 
         </div>
 
 </>
