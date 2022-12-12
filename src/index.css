@@ -24,10 +24,7 @@
 
 .row{
   height:50vh;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* margin-left: 20px; */
+  
 }
 
 
@@ -48,10 +45,5 @@ list-style: none;
  height: 100vh;
  font-weight: 900;
 }
-/* 
-.col-sm-6 >h2 span {
-  font-style: italic;
- font-weight: 600;
 
-} */
 
