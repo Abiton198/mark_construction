@@ -6,56 +6,56 @@ export default function Projects() {
     <div className='row m-5'>
         <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
      <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
          <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
          <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
          <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
          <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div> 
 
           <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
          <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
          <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
          <div className='col m-0.5'>
             <img src={weld} alt='' width='230px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
        <div className='text'>
-            <p></p>
+            <p className='mt-3'></p>
        </div>
     </div>
   )

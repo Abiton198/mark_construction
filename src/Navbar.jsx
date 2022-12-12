@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
         <nav className='navbar navbar-dark bg-dark navbar-expand-lg fixed-top'>
-            <a href='#' className='navbar-brand'>Mark Du Preez Contractors</a>
+            <a href='#' className='navbar-brand'>Mark du Preez Contractors</a>
 
     {/* button with humburger */}
             <button className='navbar-toggler' data-toggle='collapse' data-target='#navbarCollapse'>

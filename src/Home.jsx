@@ -5,7 +5,7 @@ export default function Home() {
     <div className='home'>
      
         {/* button to trigger the modal */}
-        <button className='btn btn-success' data-toggle='modal' data-target='#myModal'>
+        <button className='btn btn-success mt-1 ml-1' data-toggle='modal' data-target='#myModal'>
             Launch Modal
         </button>
 

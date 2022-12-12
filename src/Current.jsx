@@ -10,22 +10,22 @@ export default function Current() {
     <div className='row m-5'>
        <div className='col m-0.5'>
             <img src={current1} alt='' width='230px' height='180px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
         <div className='col m-0.5'>
             <img src={current2} alt='' width='230px' height='180px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
         <div className='col m-0.5'>
             <img src={current3} alt='' width='230px' height='180px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
 
         <div className='col m-0.5'>
             <img src={current4} alt='' width='230px' height='180px'/>
-            <p>The Lorraine project 2021</p>
+            <p className='mt-3'>The Lorraine project 2021</p>
         </div>
     </div>
   )
