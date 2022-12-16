@@ -16,9 +16,9 @@ import major12 from '../img/major12.jpg'
 export default function Projects() {
   return (
     <>
-      <h3 className='project-head'>Our Capstone project for 2022</h3>
-    <div className='row m-5 pt-4'>
-        <div className='col m-0.5 mw'>
+      <h3 className='project-head'>Capstone project - 2022</h3>
+    <div className='row m-0 pt-4'>
+        <div className='col m-0.5'>
             <img src={major1} alt='' className='rounded' width='350px' height='300px'/>
             <p className='mt-3'>The Lorraine project 2021</p>
         </div>

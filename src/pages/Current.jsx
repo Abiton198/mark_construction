@@ -10,9 +10,9 @@ import curr6 from '../img/curr6.jpeg'
 export default function Current() {
   return (
     <>
-          <h5 className='about-head'>Some of Projects we did in 2022</h5>
+          <h5 className='about-head'>Some Projects in 2022</h5>
   
-    <div className='row m-5'>
+    <div className='row m-0'>
        <div className='col m-0.5'>
             <img src={curr1} alt='' width='350px' height='300px'/>
             <p className='mt-3'>Fire places</p>

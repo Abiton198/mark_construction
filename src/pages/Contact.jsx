@@ -4,13 +4,12 @@ import home from '../img/home.jpg'
 export default function Contact() {
   return (
    
-<>
-        
+<>        
         <div className='row'>
             <div className='col-sm-6 bg-light text-justify mt-0'>
                 <p className='contact-message'> 
-                    Working with us the best option you have
-                      get in touch on our various platforms today.
+                    Working with us is the best option available.
+                      Get in touch with Crimson Manufacturing on our various platforms below. 
                         </p>
 
                         <h3 className='m-2'>Contact us:</h3>
