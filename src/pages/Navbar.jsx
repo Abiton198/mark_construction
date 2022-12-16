@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from './img/logo.png'
+import logo from '../img/logo.png'
 
 export default function Navbar() {
   return (
     <div>
-        <nav className='navbar navbar-dark bg-success navbar-expand-lg fixed-top'>
+        <nav className='navbar navbar-dark  navbar-expand-lg fixed-top'>
             <a href='#' className='navbar-brand'>
                 <img src={logo} alt='' width='50px' height='40px' className='mr-3'/> 
                 Crimson Manufacturing

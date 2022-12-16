@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from './pages/Navbar'
 import {Routes, Route} from 'react-router-dom'
-import About from './About'
-import Current from './Current'
-import Contact from './Contact'
-import Projects from './Projects'
-import Home from './Home'
+import About from './pages/About'
+import Current from './pages/Current'
+import Contact from './pages/Contact'
+import Projects from './pages/Projects'
+import Home from './pages/Home'
 
 export default function App() {
   return (

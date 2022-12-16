@@ -26,7 +26,7 @@ export default function Home() {
                             </div>
 
                 <div className='modal-footer'>
-                    <button className='btn btn-primary' data-dismiss='modal'>cancel</button>
+                    <button className='btn btn-primary' data-dismiss='modal'>&times;</button>
                         </div>
             </div>
         </div>

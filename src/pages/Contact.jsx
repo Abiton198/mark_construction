@@ -1,5 +1,5 @@
 import React from 'react'
-import home from './img/home.jpg'
+import home from '../img/home.jpg'
 
 export default function Contact() {
   return (
@@ -7,14 +7,15 @@ export default function Contact() {
 <>
         
         <div className='row'>
-            <div className='col-sm-6 bg-light text-justify'>
+            <div className='col-sm-6 bg-light text-justify mt-0'>
                 <p className='contact-message'> 
-                    If you would like to explore the idea
-                    of working with Crimson Manufacturing SA, feel free to get in touch on
-                     our various platforms today.
+                    Working with us the best option you have
+                      get in touch on our various platforms today.
                         </p>
 
-                    <h6 className='font-weight-bold'>Find Us:
+                        <h3 className='m-2'>Contact us:</h3>
+
+                    <h6 className='font-weight-bold'>
                         <br/><i className="fa-sharp fa-solid fa-location-dot m-2 "></i>Gedults River, St Albans, Gqeberha, SA  
                             <br/> <i className="fa-solid fa-phone m-2"></i>076 872 1584
                             <br/> <i className="fa-regular fa-envelope m-2"></i> 01dupreez@gmail.com
@@ -25,22 +26,22 @@ export default function Contact() {
                             <ul className="row">
                                                                 
                                  <li className="col">
-                                    <a className="whatsapp" href="#">
+                                    <a className="whatsapp" href="https://wa.me/0027768721584">
                                         <i className="fab fa-whatsapp"></i>
                                              </a></li>
                                                                     
                                 <li className="col">
-                                    <a className="twitter" href="#">
-                                        <i className="fab fa-twitter"></i>
+                                    <a className="twitter" href="https://web.facebook.com/mark.dupreez.758">
+                                        <i className="fab fa-facebook"></i>
                                              </a></li>
                                                                     
                                 <li className="col">
                                     <a className="github" href="#">
-                                        <i className="fab fa-github"></i>  
+                                        <i className="fab fa-instagram"></i>  
                                             </a></li>
                                     
                                 <li className='col'>
-                                    <a className='linked-in' href='#'>
+                                    <a className='linked-in' href='https://www.linkedin.com/in/mark-du-preez-880454182/'>
                                         <i className="fab fa-linkedin"></i> 
                                              </a></li>
                                     
@@ -49,12 +50,15 @@ export default function Contact() {
                     </div>
             </div>
         
-             <div className='col-sm-6 bg-dark text-light'>
+             <div className='col-sm-6 bg-secondary text-light'>
                  <h2>Crimson Manufacturing 
                     <hr className='bg-light'/>
                     <br/> Gets the job done!
-                         <br/>efficient, reliable and innovative!
+                         <br/>Efficient, reliable and innovative.
+                         <img src={home} alt='' className='rounded-circle mt-5' width='230px' height='180px'/>
                             </h2> 
+
+                
               </div> 
         </div>
 
