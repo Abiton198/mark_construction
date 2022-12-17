@@ -13,10 +13,11 @@ import major10 from '../img/major10.jpg'
 import major11 from '../img/major11.jpg'
 import major12 from '../img/major12.jpg'
 
+
 export default function Projects() {
   return (
-    <>
-      <h3 className='project-head'>Capstone project - 2022</h3>
+    <div>
+      
     <div className='carousel slide bg-dark' id='carouselIndicators' data-ride='carousel'>
 
         <ol className='carousel-indicators'>
@@ -37,81 +38,82 @@ export default function Projects() {
          <div className='carousel-inner'> 
 
               <div className='carousel-item active'>
-                 <img src={major1} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                 <img src={major1} alt='' className='d-md-block w-100 h-100'/>
                    <p className='m-5 text-light'>The Lorraine project 2021</p>
                      </div>
 
               <div className='carousel-item'>
-                  <img src={major2} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <img src={major2} alt='' className='d-md-block w-100 h-100'/>
                     <p className='m-5 text-light'>The Lorraine project 2021</p>
                       </div>
 
               <div className='carousel-item'>
-                <img src={major3} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major3} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light'>The Lorraine project 2021</p>
                     </div>
 
               <div className='carousel-item'>
-                <img src={major4} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major4} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light'>The Lorraine project 2021</p>
                     </div>
 
               <div className='carousel-item'>
-                <img src={major5} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major5} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light'>The Lorraine project 2021</p>
                     </div>
 
               <div className='carousel-item'>
-                <img src={major6} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major6} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light'>The Lorraine project 2021</p>
                     </div> 
 
                 <div className='carousel-item'>
-                <img src={major7} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major7} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light'>The Lorraine project 2021</p>
                     </div>
 
               <div className='carousel-item'>
-                <img src={major8} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major8} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light'>The Lorraine project 2021</p>
                     </div>
 
               <div className='carousel-item'>
-                <img src={major9} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major9} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light'>The Lorraine project 2021</p>
                     </div>
 
               <div className='carousel-item'>
-                <img src={major10} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major10} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light' text-light>The Lorraine project 2021</p>
                     </div>
 
               <div className='carousel-item'>
-                <img src={major11} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major11} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light' text-light>The Lorraine project 2021</p>
                     </div>
 
               <div className='carousel-item'>
-                <img src={major12} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                <img src={major12} alt='' className='d-md-block w-100 h-100'/>
                   <p className='m-5 text-light' text-light>The Lorraine project 2021</p>
                     </div>
         </div>   
 
         <a className='carousel-control-prev' href='#carouselIndicators' role='button' data-slide='prev'>
           <span className='carousel-control-prev-icon bg-success' aria-hidden='true'></span>
-          <span className='sr-only'>Previous</span>
-        </a>
+            <span className='sr-only'>Previous</span>
+              </a>
 
         <a className='carousel-control-next' href='#carouselIndicators' role='button' data-slide='next'>
           <span className='carousel-control-next-icon bg-success' aria-hidden='true'></span>
-          <span className='sr-only'>Next</span>
-        </a>
+             <span className='sr-only'>Next</span>
+                </a>
 
-       <div className='text'>
-            <p className='mt-3'></p>
-       </div>
     </div>
 
-    </>
+
+   
+    
+   
+    </div>
   )
 }
