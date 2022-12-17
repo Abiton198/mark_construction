@@ -17,66 +17,95 @@ export default function Projects() {
   return (
     <>
       <h3 className='project-head'>Capstone project - 2022</h3>
-    <div className='row m-0 pt-4'>
-        <div className='col m-0.5'>
-            <img src={major1} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+    <div className='carousel slide bg-dark' id='carouselIndicators' data-ride='carousel'>
 
-     <div className='col m-0.5'>
-            <img src={major2} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+        <ol className='carousel-indicators'>
+          <li data-target='#carouselIndicators' data-slide-to='0' className='active'></li>
+          <li data-target='#carouselIndicators' data-slide-to='1'></li>
+          <li data-target='#carouselIndicators' data-slide-to='2'></li>
+          <li data-target='#carouselIndicators' data-slide-to='3'></li>
+          <li data-target='#carouselIndicators' data-slide-to='4'></li>
+          <li data-target='#carouselIndicators' data-slide-to='5'></li>
+          <li data-target='#carouselIndicators' data-slide-to='6'></li>
+          <li data-target='#carouselIndicators' data-slide-to='7'></li>
+          <li data-target='#carouselIndicators' data-slide-to='8'></li>
+          <li data-target='#carouselIndicators' data-slide-to='9'></li>
+          <li data-target='#carouselIndicators' data-slide-to='10'></li>
+          <li data-target='#carouselIndicators' data-slide-to='11'></li>
+        </ol>
+             
+         <div className='carousel-inner'> 
 
-         <div className='col m-0.5'>
-            <img src={major3} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+              <div className='carousel-item active'>
+                 <img src={major1} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                   <p className='m-5 text-light'>The Lorraine project 2021</p>
+                     </div>
 
-         <div className='col m-0.5'>
-            <img src={major4} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+              <div className='carousel-item'>
+                  <img src={major2} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                    <p className='m-5 text-light'>The Lorraine project 2021</p>
+                      </div>
 
-         <div className='col m-0.5'>
-            <img src={major5} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+              <div className='carousel-item'>
+                <img src={major3} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                    </div>
 
-         <div className='col m-0.5'>
-            <img src={major6} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div> 
+              <div className='carousel-item'>
+                <img src={major4} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                    </div>
 
-          <div className='col m-0.5'>
-            <img src={major7} alt='' className='rounde0' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+              <div className='carousel-item'>
+                <img src={major5} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                    </div>
 
-         <div className='col m-0.5'>
-            <img src={major8} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+              <div className='carousel-item'>
+                <img src={major6} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                    </div> 
 
-         <div className='col m-0.5'>
-            <img src={major9} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+                <div className='carousel-item'>
+                <img src={major7} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                    </div>
 
-         <div className='col m-0.5'>
-            <img src={major10} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+              <div className='carousel-item'>
+                <img src={major8} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                    </div>
 
-        <div className='col m-0.5'>
-            <img src={major11} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+              <div className='carousel-item'>
+                <img src={major9} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                    </div>
 
-        <div className='col m-0.5'>
-            <img src={major12} alt='' className='rounded' width='350px' height='300px'/>
-            <p className='mt-3'>The Lorraine project 2021</p>
-        </div>
+              <div className='carousel-item'>
+                <img src={major10} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light' text-light>The Lorraine project 2021</p>
+                    </div>
+
+              <div className='carousel-item'>
+                <img src={major11} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light' text-light>The Lorraine project 2021</p>
+                    </div>
+
+              <div className='carousel-item'>
+                <img src={major12} alt='' className='d-md-block w-100 h-100' width='350px' height='300px'/>
+                  <p className='m-5 text-light' text-light>The Lorraine project 2021</p>
+                    </div>
+        </div>   
+
+        <a className='carousel-control-prev' href='#carouselIndicators' role='button' data-slide='prev'>
+          <span className='carousel-control-prev-icon bg-success' aria-hidden='true'></span>
+          <span className='sr-only'>Previous</span>
+        </a>
+
+        <a className='carousel-control-next' href='#carouselIndicators' role='button' data-slide='next'>
+          <span className='carousel-control-next-icon bg-success' aria-hidden='true'></span>
+          <span className='sr-only'>Next</span>
+        </a>
 
        <div className='text'>
             <p className='mt-3'></p>
