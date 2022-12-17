@@ -44,9 +44,3 @@ list-style: none;
 .navbar{
   background-color: rgb(43, 151, 43);
 }
-
-.about-head, .project-head{
-  margin-top: 3.5em;
-  text-align: center;
-  font-weight: 700;
-}

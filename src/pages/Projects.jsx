@@ -39,62 +39,62 @@ export default function Projects() {
 
               <div className='carousel-item active'>
                  <img src={major1} alt='' className='d-md-block w-100 h-100'/>
-                   <p className='m-5 text-light'>The Lorraine project 2021</p>
+                   <p className='m-3 text-light'>Capstone project 2021</p>
                      </div>
 
               <div className='carousel-item'>
                   <img src={major2} alt='' className='d-md-block w-100 h-100'/>
-                    <p className='m-5 text-light'>The Lorraine project 2021</p>
+                    <p className='m-3 text-light'>Capstone project 2021</p>
                       </div>
 
               <div className='carousel-item'>
                 <img src={major3} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                  <p className='m-3 text-light'>Capstone project 2021</p>
                     </div>
 
               <div className='carousel-item'>
                 <img src={major4} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                  <p className='m-3 text-light'>Capstone project 2021</p>
                     </div>
 
               <div className='carousel-item'>
                 <img src={major5} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                  <p className='m-3 text-light'>Capstone project 2021</p>
                     </div>
 
               <div className='carousel-item'>
                 <img src={major6} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                  <p className='m-3 text-light'>Capstone project 2021</p>
                     </div> 
 
                 <div className='carousel-item'>
                 <img src={major7} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                  <p className='m-3 text-light'>Capstone project 2021</p>
                     </div>
 
               <div className='carousel-item'>
                 <img src={major8} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                  <p className='m-3 text-light'>Capstone project 2021</p>
                     </div>
 
               <div className='carousel-item'>
                 <img src={major9} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light'>The Lorraine project 2021</p>
+                  <p className='m-3 text-light'>Capstone project 2021</p>
                     </div>
 
               <div className='carousel-item'>
                 <img src={major10} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light' text-light>The Lorraine project 2021</p>
+                  <p className='m-3 text-light' text-light>Capstone project 2021</p>
                     </div>
 
               <div className='carousel-item'>
                 <img src={major11} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light' text-light>The Lorraine project 2021</p>
+                  <p className='m-3 text-light' text-light>Capstone project 2021</p>
                     </div>
 
               <div className='carousel-item'>
                 <img src={major12} alt='' className='d-md-block w-100 h-100'/>
-                  <p className='m-5 text-light' text-light>The Lorraine project 2021</p>
+                  <p className='m-3 text-light' text-light>Capstone project 2021</p>
                     </div>
         </div>   
 

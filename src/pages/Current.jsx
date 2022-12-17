@@ -27,32 +27,32 @@ export default function Current() {
 
                     <div className='carousel-item'>
                         <img src={curr1} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-5 text-light'> Fire places </p>
+                            <p className='m-3 text-light'> Fire places </p>
                                  </div> 
 
                     <div className='carousel-item active'>
                         <img src={curr2} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-5 text-light'>Chimneys</p>
+                            <p className='m-3 text-light'>Chimneys</p>
                                 </div>
 
                     <div className='carousel-item'>
                         <img src={curr3} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-5 text-light'>Fire places</p>
+                            <p className='m-3 text-light'>Fire places</p>
                                  </div>
 
                     <div className='carousel-item'>
                         <img src={curr4} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-5 text-light'>Fire places</p>
+                            <p className='m-3 text-light'>Fire places</p>
                                  </div> 
 
                     <div className='carousel-item'>
                         <img src={curr5} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-5 text-light'>Chimneys</p>
+                            <p className='m-3 text-light'>Chimneys</p>
                                  </div>
 
                     <div className='carousel-item'>
                         <img src={curr6} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-5 text-light'>Chimneys</p>
+                            <p className='m-3 text-light'>Chimneys</p>
                                  </div> 
 
                 </div>   
