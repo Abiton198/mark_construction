@@ -47,3 +47,8 @@ list-style: none;
 .navbar{
   background-color: rgb(43, 151, 43);
 }
+
+ .carousel-item  {
+  height: 100vh;
+  width: 100%;
+}
