@@ -9,9 +9,8 @@ import curr6 from '../img/curr6.jpeg'
 
 export default function Current() {
   return (
-    <div>
 
-        <div className='carousel slide bg-dark' id='carouselIndicators' data-ride='carousel'>
+        <div className='carousel slide bg-dark h-100' id='carouselIndicators' data-ride='carousel'>
 
                 <ol className='carousel-indicators'>
                     <li data-target='#carouselIndicators' data-slide-to='0' className='active'></li>
@@ -27,32 +26,32 @@ export default function Current() {
 
                     <div className='carousel-item'>
                         <img src={curr1} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-3 text-light'> Fire places </p>
+                            <p className='p-3 text-light'> Fire places </p>
                                  </div> 
 
                     <div className='carousel-item active'>
                         <img src={curr2} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-3 text-light'>Chimneys</p>
+                            <p className='p-3 text-light'>Chimneys</p>
                                 </div>
 
                     <div className='carousel-item'>
                         <img src={curr3} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-3 text-light'>Fire places</p>
+                            <p className='p-3 text-light'>Fire places</p>
                                  </div>
 
                     <div className='carousel-item'>
                         <img src={curr4} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-3 text-light'>Fire places</p>
+                            <p className='p-3 text-light'>Fire places</p>
                                  </div> 
 
                     <div className='carousel-item'>
                         <img src={curr5} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-3 text-light'>Chimneys</p>
+                            <p className='p-3 text-light'>Chimneys</p>
                                  </div>
 
                     <div className='carousel-item'>
                         <img src={curr6} alt='' className='d-md-block w-100 h-100'/>
-                            <p className='m-3 text-light'>Chimneys</p>
+                            <p className='p-3 text-light'>Chimneys</p>
                                  </div> 
 
                 </div>   
@@ -68,40 +67,6 @@ export default function Current() {
                                 </a>
 
     </div>
-{/*   
-    <div className='row m-0'>
-       <div className='col m-0.5'>
-            <img src={curr1} alt='' width='350px' height='300px'/>
-            <p className='mt-3'>Fire places</p>
-        </div>
-
-        <div className='col m-0.5'>
-            <img src={curr2} alt='' width='350px' height='300px'/>
-            <p className='mt-3'>Chimneys</p>
-        </div>
-
-        <div className='col m-0.5'>
-            <img src={curr3} alt='' width='350px' height='300px'/>
-            <p className='mt-3'>Fire places</p>
-        </div>
-
-        <div className='col m-0.5'>
-            <img src={curr4} alt=''  width='350px' height='300px'/>
-            <p className='mt-3'>Fire places</p>
-        </div>
-
-        <div className='col m-0.5'>
-            <img src={curr5} alt=''  width='350px' height='300px'/>
-            <p className='mt-3'>Chimneys</p>
-        </div>
-
-        <div className='col m-0.5'>
-            <img src={curr6} alt=''  width='350px' height='300px'/>
-            <p className='mt-3'>Chimneys</p>
-        </div>
-    </div> */}
-
-
-    </div>
+  
   )
 }
