@@ -16,9 +16,9 @@ import major12 from '../img/major12.jpg'
 
 export default function Projects() {
   return (
-    <div>
+    <div className='bg-light'>
       
-    <div className='carousel slide bg-dark' id='carouselIndicators' data-ride='carousel'>
+    {/* <div className='carousel slide bg-dark' id='carouselIndicators' data-ride='carousel'>
 
         <ol className='carousel-indicators'>
           <li data-target='#carouselIndicators' data-slide-to='0' className='active'></li>
@@ -108,10 +108,74 @@ export default function Projects() {
              <span className='sr-only'>Next</span>
                 </a>
 
-    </div>
+    </div> */}
 
 
-   
+      <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+              <div className="carousel-inner">
+                    <div className="carousel-item active">
+                      <img className="d-block w-100" src={major1} alt="First slide" height='400px'/>
+                        </div>
+
+                    <div className="carousel-item">
+                      <img className="d-block w-100 image-fluid" src={major2} alt="Second slide"height='400px'/>
+                        </div>
+
+                    <div className="carousel-item">
+                      <img className="d-block w-100" src={major3} alt="Third slide" height='400px'/>
+                        </div>
+
+                    <div className="carousel-item">
+                      <img className="d-block w-100" src={major4} alt="Third slide" height='400px'/>
+                        </div>
+
+                        <div className="carousel-item">
+                          <img className="d-block w-100" src={major5} alt="Third slide" height='400px'/>
+                            </div>
+
+                            <div className="carousel-item">
+                              <img className="d-block w-100" src={major6} alt="Third slide" height='400px'/>
+                                 </div>
+
+                                 <div className="carousel-item">
+                                    <img className="d-block w-100" src={major7} alt="Third slide" height='400px'/>
+                                       </div>
+
+                                       <div className="carousel-item">
+                                          <img className="d-block w-100" src={major8} alt="Third slide" height='400px'/>
+                                              </div>
+
+                                              <div className="carousel-item">
+                                                <img className="d-block w-100" src={major9} alt="Third slide" height='400px'/>
+                                                  </div>
+
+                                                  <div className="carousel-item">
+                                                    <img className="d-block w-100" src={major10} alt="Third slide" height='400px'/>
+                                                      </div>
+
+                                                      <div className="carousel-item">
+                                                        <img className="d-block w-100" src={major11} alt="Third slide" height='400px'/>
+                                                          </div>
+
+                                                          <div className="carousel-item">
+                                                            <img className="d-block w-100" src={major12} alt="Third slide" height='400px'/>
+                                                              </div>
+              </div>
+
+              <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
+              </a>
+              <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
+              </a>
+</div>
+
+          <div className='p-3 mt-3'>
+            <h3>The modern way of building a strong and classic structure 
+              is on making a smart choice of contractors.</h3>
+          </div>
     
    
     </div>
